@@ -59,6 +59,6 @@ if [ -f "$cronJob" ]; then
 else
 	echo "Creating Cron Job File"
 	sudo touch $cronJob
-sudo echo "0 5 * * * root /root/AutomationProject/automation.sh >>/tmp/out.txt" >> $cronJob
+sudo echo "0 5 * * * root /root/Automation_Project/automation.sh >>/tmp/out.txt" >> $cronJob
 fi
 echo "*************************************************************"
